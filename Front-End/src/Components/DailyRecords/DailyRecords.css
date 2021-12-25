@@ -1,0 +1,25 @@
+.dailyRecords {
+  position: absolute;
+  left:69.5%;
+  right:5px;
+  top: 455px;
+  width: 100%;
+}
+
+.dailyRecordsText {
+  font-family: Poppins;
+  width: 24px;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+  font-size: 20px;
+  white-space: nowrap;
+  text-align: left;
+  color: rgba(83, 83, 83, 1);
+}
+.dailyRecordsProgressBarBox {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}

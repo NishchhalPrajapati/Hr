@@ -1,0 +1,173 @@
+.topBar {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    min-width: 900px;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+  }
+
+  .statusBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 8px;
+    border: solid 1px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .statusText {
+    margin: 0px;
+    font-size: 15px;
+  }
+  
+  .line {
+    width: 0px;
+    height: 20px;
+    border: solid 1px gray;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    margin-left: auto;
+  }
+  
+  .searchBox {
+    display: flex;
+    flex-direction: row;
+    height: 95%;
+    width: 40%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border: solid 1px gray;
+    border-radius: 15px;
+    padding: 0px 8px;
+  }
+  
+  .searchText {
+    border: solid 0px;
+    outline: none;
+    width: 90%;
+  }
+  
+  .addBox {
+    display: flex;
+    flex-direction: row;
+    background-color: #279f9f;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 10px;
+    height: 95%;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid 0px;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .arrowBox {
+    display: flex;
+    position: absolute;
+    left: 920px;
+    width: 2.5%;
+    height: 2.5%;
+    top: 22px;
+    border: solid 1px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 3;
+  }
+  
+  .arrowBox:hover {
+    transform: scale(1.05);
+  }
+  
+  .owner {
+    margin: 0px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+ 
+  .innerChild {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+  
+  .columnManage {
+    display: flex;
+    position: absolute;
+    left: 1000px;
+    width: 3%;
+    height: 3%;
+    top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: 1000px; */
+  }
+  
+  .tooltiptext {
+    visibility: hidden;
+    background-color: #279ea0;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 15px;
+    margin-top: 70px;
+    margin-right: 25px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 3;
+  }
+  
+  .columnManage:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .leadContainer {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5px;
+    margin-left: auto;
+  }
+  
+  /* .leadBox { */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  /* } */
+  /*  */
+  /* .leadText { */
+    /* margin: 0px; */
+    /* color: #279ea0; */
+    /* font-size: 13px; */
+  /* } */
+  

@@ -1,0 +1,20 @@
+{
+  "targets": {
+    "read-pro": {
+      "hosting": {
+        "release": [
+          "read-pro"
+        ],
+        "test": [
+          "test-readpro"
+        ],
+        "test1": [
+          "test1-readpro"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "read-pro"
+  }
+}

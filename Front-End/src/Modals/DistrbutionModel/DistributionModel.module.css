@@ -1,0 +1,187 @@
+.parent {
+    margin-top: 30px;
+    width: 60vh;
+    min-width: 600px;
+    height: 88vh;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+  
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    outline: none;
+    overflow-y: auto;
+    overflow-x: auto;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 7px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+  }
+  
+  .parent::-webkit-scrollbar {
+    width: 6px;
+  
+    height: 5px;
+  }
+  
+  .parent::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  /* Handle */
+  .parent::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  .parent::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .overlay {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  .firstDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+    box-sizing: border-box;
+  }
+  .cross {
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contactForm {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .line {
+    display: flex;
+    margin-top: 15px;
+    border: solid 1px #dcdcdc80;
+  }
+  
+  .text {
+    margin: 0px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .dropDown {
+    margin-top: 20px;
+  }
+  
+  .apply {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    width: 100px;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: #279ea0;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: solid 0px;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    margin: 0px;
+    margin-top: 3%;
+  }
+  
+  .one {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  
+  .two {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    margin: 0px;
+    margin-left: 2px;
+  }
+  
+  .box2 {
+    display: flex;
+  
+    flex-direction: row;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .divide {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+  }
+  .button {
+    background-color: #279f9f;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10%;
+    border: solid 0px;
+    outline: none;
+    width: 50%;
+    align-self: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+  }
+  
+  .buttonsBox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  
+    margin-top: 10px;
+    align-items: flex-end;
+  }
+  
+  .delete {
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    width: 100px;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0000;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    border: solid 0px;
+    margin-right: 10px;
+  }
+  

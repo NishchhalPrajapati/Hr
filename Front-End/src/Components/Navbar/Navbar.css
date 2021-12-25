@@ -1,0 +1,102 @@
+.navbar {
+  position: relative;
+  width: 81%;
+  height: 57px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  background-color: rgba(228, 245, 245, 1);
+}
+
+/* .sideMenuIcon { */
+  /* position: absolute; */
+  /* width: 25px; */
+  /* height: 25px; */
+  /* left: 15px; */
+  /* top: 15px; */
+  /* cursor: pointer; */
+/* } */
+
+.msgIcon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 23px;
+  margin-right: 13.5%;
+  cursor: pointer;
+}
+.notificationIcon {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 23px;
+  margin-right: 17%;
+  cursor: pointer;
+}
+.navProfileIcon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  margin-right: 8.5%;
+  cursor: pointer;
+}
+#admin {
+  top: 3px;
+  position: absolute;
+  white-space: nowrap;
+  line-height: 60px;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(112, 112, 112, 1);
+  margin-right: 3%;
+  cursor: pointer;
+}
+#Read_Pro_Logo {
+  position: absolute;
+  width: 192.733px;
+  height: 53.723px;
+  left: 13.5px;
+  top: 10.571px;
+}
+.rightBox {
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  position: relative;
+  top: -4px;
+}
+
+.searchIcon {
+  position: absolute;
+  margin-right: 22.5%;
+  width: 13px;
+  top: 30px;
+}
+
+.dropDown {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  top: 30px;
+  right: 1.5%;
+}
+
+.navSearchBox {
+  position: absolute;
+  left: 55%;
+  width: 80%;
+}
+
+.circle{
+  position: absolute;
+  margin-right: 10%;
+  top: 40px;
+  height: 5px;
+  width: 5px;
+  border: 1px solid rgb(122, 240, 122);
+  background-color: rgb(122, 240, 122);
+  border-radius: 50px;
+}

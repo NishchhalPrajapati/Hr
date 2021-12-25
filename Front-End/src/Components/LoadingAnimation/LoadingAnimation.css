@@ -1,0 +1,30 @@
+.ProgressBar {
+  border-radius: 15px;
+  animation: progres 1.5s 1 linear;
+}
+.ProgressBarBox {
+  width: 215px;
+  height: 8px;
+  margin-left: 11px;
+  margin-top: 2px;
+  border-radius: 50px;
+  background-color: #efefef;
+}
+
+@keyframes progres {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  75% {
+    width: 85%;
+  }
+  100% {
+    width: 100%;
+  }
+}

@@ -1,0 +1,112 @@
+.employeesSearchBoxContainer {
+  display: flex;
+  position: relative;
+  left: 12px;
+  top: -15px;
+}
+
+.employeesBoxContainer{
+  display: flex;
+  position: relative;
+  left: 2px;
+}
+
+.EmployeesSearchSubmit {
+  width: 50px;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 18px;
+  margin-left: 40px;
+  background-color: #84e0be;
+  border: none;
+}
+
+/* .AddEmployees { */
+  /* width: 50px; */
+  /* height: 35px; */
+  /* border-radius: 10px; */
+  /* margin-top: 18px; */
+  /* margin-left: 10px; */
+  /* background-color: #84e0be; */
+  /* border: none; */
+/* } */
+
+.empSearchIcon {
+  position: absolute;
+  left: 554px;
+  top: 26px;
+  color: white;
+}
+
+.plusIcon {
+  position: absolute;
+  margin-right: 22.5%;
+  width: 11px;
+  left: 120px;
+  cursor: pointer;
+  size: 2;
+  top: 33px;
+}
+
+.DropIcon{
+  position: absolute;
+  margin-right: 22.2%;
+  width: 19px;
+  height: 24px;
+  left: 263px;
+  /* right: -100px; */
+  top: 26px;
+}
+
+.FilterIcon{
+  position: absolute;
+  margin-right: 22.2%;
+  width: 22px;
+  right: 1px;
+  /* size: 2; */
+  top: 25px;
+}
+
+.doticon{
+  position: absolute;
+  margin-right: 22.5%;
+  width: 22px;
+  right: -53px;
+  /* size: 2; */
+  top: 23px;
+}
+
+.CrossIcon{
+  position: absolute;
+  margin-right: 22.5%;
+  width: 35px;
+  height: 27px;
+  right: -110px;
+  /* size: 2; */
+  top: 20px;
+}
+
+.OptionIcon{
+  position: absolute;
+  margin-right: 22.5%;
+  width: 35px;
+  height: 27px;
+  right: -150px;
+  /* size: 2; */
+  top: 20px;
+}
+
+.Edit_icon{
+  position: absolute;
+  /* margin-right: 22.5%; */
+  /* width: 35px; */
+  /* height: 27px; */
+  right: 8px;
+  /* size: 2; */
+  top: 8px;
+}
+
+
+
+
+

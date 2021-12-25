@@ -1,0 +1,45 @@
+.dashboardTitle {
+  position: absolute;
+  width: 299px;
+  height: 75px;
+  left: 15px;
+  top: 45px;
+  overflow: visible;
+}
+.attendance {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 157px;
+  white-space: nowrap;
+  line-height: 60px;
+  margin-top: -47px;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+}
+.dashboardAttendance {
+  left: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 300px;
+  white-space: nowrap;
+  line-height: 60px;
+  margin-top: -42px;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(39, 158, 160, 1);
+}
+
+.attendanceList {
+  position: relative;
+  top: 140px;
+  width: 100%;
+}

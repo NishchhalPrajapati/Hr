@@ -1,0 +1,48 @@
+.profileCardBox {
+  position: relative;
+  left: 25px;
+  top: 0px;
+}
+
+.profilePic {
+  width: 75px;
+  height: 75px;
+  position: relative;
+  top: 10px;
+  background-image: url("../../assets/images/team-3@2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  margin: auto;
+}
+
+.welcomeUser {
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: rgba(39, 159, 159, 1);
+  letter-spacing: 0.05px;
+  margin: auto;
+  position: relative;
+  top: 18px;
+}
+
+.date {
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  position: relative;
+  top: 16px;
+  left: -15px;
+  color: rgba(83, 83, 83, 1);
+  margin: auto;
+}

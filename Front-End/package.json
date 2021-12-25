@@ -1,0 +1,76 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://127.0.0.1:5000",
+  "dependencies": {
+    "@firebase/app": "^0.7.10",
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/react-fontawesome": "^0.1.16",
+    "@hookform/resolvers": "^2.8.5",
+    "@material-ui/core": "^4.12.3",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-table": "^7.7.8",
+    "axios": "^0.24.0",
+    "firebase": "^8.4.1",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.3",
+    "react-circular-progressbar": "^2.0.4",
+    "react-csv": "^2.0.3",
+    "react-custom-checkbox": "^2.0.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.20.5",
+    "react-icons": "^4.3.1",
+    "react-infinite-scroll-component": "^6.1.0",
+    "react-loading": "^2.0.3",
+    "react-loading-overlay-ts": "^1.0.4",
+    "react-modal": "^3.14.4",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.2",
+    "react-scripts": "4.0.3",
+    "react-select": "^5.2.1",
+    "react-table": "^7.7.0",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.4.4",
+    "web-vitals": "^1.0.1",
+    "xlsx": "^0.17.4",
+    "yup": "^0.32.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "@types/react-csv": "^1.1.2",
+    "@types/react-modal": "^3.13.1",
+    "@types/styled-components": "^5.1.15"
+  }
+}

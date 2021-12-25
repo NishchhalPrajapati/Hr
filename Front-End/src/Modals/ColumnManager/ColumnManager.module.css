@@ -1,0 +1,139 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    min-width: 250px;
+    background-color: white;
+    height: 520px;
+    border: solid 0px;
+    border-color: white;
+    outline: none;
+    padding: 5px 15px;
+  }
+  .overlay {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .headContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .searchBox {
+    display: flex;
+    flex-direction: row;
+    border: solid 1.5px #279ea0;
+    border-radius: 15px;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 7px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .searchText {
+    display: flex;
+    border: solid 0px;
+    outline: none;
+  }
+  
+  .manageText {
+    font-weight: 500;
+    color: #279ea0;
+    font-size: 17px;
+  }
+  
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7px 5px;
+    margin-top: 15px;
+    height: 350px;
+    overflow-y: auto;
+  }
+  
+  .text {
+    margin: 0px;
+    margin-left: 5px;
+    font-size: 14px;
+    
+  }
+  
+  .checkbox {
+    margin-top: 5px;
+  }
+  
+  .child {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .saveButton {
+    display: flex;
+    align-items: center;
+    background-color: #4fce5d;
+    border: solid 0px;
+    outline: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 2px;
+  }
+  
+  .cancelButton {
+    display: flex;
+    align-items: center;
+    background-color: #d51e1e;
+    border: solid 0px;
+    outline: none;
+    color: white;
+    padding: 5px 13px;
+    border-radius: 2px;
+  }
+  
+  .resetButton {
+    display: flex;
+    align-items: center;
+    background-color: #2fa2d3;
+    border: solid 0px;
+    outline: none;
+    color: white;
+    padding: 5px 13px;
+    border-radius: 2px;
+  }
+  
+  .showColumnAnim {
+    animation: showColumnManager 0.2s ease-in;
+  }
+  
+  @keyframes showColumnManager {
+    from {
+      height: 0px;
+      opacity: 0;
+    }
+    to {
+      height: 500px;
+      opacity: 1;
+    }
+  }
+  

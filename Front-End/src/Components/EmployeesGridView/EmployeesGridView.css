@@ -1,0 +1,65 @@
+.EmployeesProfilePic {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  top: 17px;
+  right: 1px;
+  margin: auto;
+  background-image: url("../../assets/images/team-3@2x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+}
+
+.empUserName {
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  color: rgba(83, 83, 83, 1);
+  letter-spacing: 0.05px;
+  margin: auto;
+  position: relative;
+  top: 22px;
+}
+
+.empUserMail {
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 9px;
+  position: relative;
+  letter-spacing: 1px;
+  top: 24px;
+  color: rgb(104, 104, 104);
+  margin: auto;
+}
+
+.Designation {
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  position: relative;
+  top: 22px;
+  color: rgba(83, 83, 83, 1);
+  margin: auto;
+}
+
+.Pencilcon{
+  position: absolute;
+  right: 4px;
+  color:transparent;
+  top: 10px;
+  width: 15px;
+}

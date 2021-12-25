@@ -1,0 +1,47 @@
+.todayActivity {
+  position: relative;
+  right: 0%;
+  top: 100px;
+}
+
+.circle {
+  fill: rgba(255, 255, 255, 1);
+  stroke: rgba(132, 224, 190, 1);
+  stroke-width: 3px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.circleSvg {
+  overflow: visible;
+  width: 10px;
+  height: 10px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.vl {
+  border-left: 2px solid #e9e9e9;
+  height: 35px;
+  margin-left: 4px;
+  margin-top: -10px;
+}
+
+.todayActivityCircle {
+  position: relative;
+  top: 90px;
+  left: 11px;
+}
+.todayActivitypunchInAtText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  left: 28px;
+  top: -40px;
+}
+
+.clockSvg {
+  height: 7px;
+  width: 7px;
+  margin-bottom: 5px;
+}

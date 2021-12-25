@@ -1,0 +1,236 @@
+.parent {
+    margin-top: 30px;
+    width: 75vw;
+    min-width: 950px;
+    height: 80vh;
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    margin-left: 150px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px #00000090;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    outline: none;
+    overflow-y: auto;
+    overflow-x: auto;
+  }
+  
+  .contactForm {
+    margin: 0px;
+    font-size: 30px;
+    color: #279ea0;
+  }
+  
+  .child {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: 80vh;
+    align-items: center;
+  }
+  
+  .image {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .dragBox {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    width: 80%;
+    background-color: white;
+    margin-top: 50px;
+    padding: 50px 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 23px;
+    color: gray;
+  }
+  
+  .selectBox {
+    width: 60vw;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 15px;
+  }
+  
+  .select {
+    display: none;
+  }
+  
+  .uploadButton {
+    display: flex;
+    background-color: #279ea0;
+    color: #ffffff;
+    padding: 10px 22px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  
+  .uploadButton:active {
+    opacity: 0.5;
+  }
+  
+  .options {
+    display: flex;
+    padding: 5px 2px 5px 2px;
+    outline: none;
+  }
+  
+  .tableBox {
+    width: 100%;
+    height: 80vh;
+    white-space: nowrap;
+    overflow-x: auto;
+  }
+  
+  .table {
+    width: 100%;
+    margin-top: 1%;
+    border-spacing: 0px;
+  }
+  
+  .check {
+    margin-left: 10px;
+    padding: 2px;
+  }
+  
+  .head {
+    padding-left: 10px;
+  }
+  
+  .th {
+    align-items: center;
+    justify-content: center;
+    background-color: #484b49;
+    color: white;
+    margin: 0px;
+    font-size: 14px;
+    border: solid 0px;
+    padding-bottom: 5px;
+  }
+  
+  .no {
+    background-color: white;
+    border-bottom: 5pt solid #f3f3f3;
+  }
+  
+  .td {
+    height: 5vh;
+    text-align: center;
+    /* background-color: white; */
+    border-bottom: 5pt solid #f3f3f3;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .disabled {
+    background-color: grey;
+  }
+  
+  .tHeadContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 30px;
+  }
+  
+  .drop {
+    display: flex;
+    margin-top: -8px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon {
+    margin-left: 10px;
+    margin-top: 3px;
+  }
+  
+  .cross {
+    margin-left: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .buttonBox {
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+    margin-top: auto;
+  }
+  
+  .confirm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    font-size: 16px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: solid 0px;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  .cancel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: solid 0px;
+    border-radius: 10px;
+    outline: none;
+    margin-right: 30px;
+  }
+  
+  /* ::-webkit-scrollbar {
+    display: none;
+  } */
+  
+  .button {
+    margin-top: 20%;
+    width: 10%;
+  }
+  
+  .imageContainer {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    padding: 5px 2px;
+    max-height: 75%;
+    overflow-y: auto;
+    border: solid lightgrey;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-width: 1px;
+  }
+  
+  .imageBox {
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  

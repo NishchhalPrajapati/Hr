@@ -1,0 +1,227 @@
+/* .parent { */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* width: 100%; */
+  /* height: 83.6%; */
+  /* min-height: 400px; */
+  /* min-width: 900px; */
+  /* padding: 0px 1.5%; */
+  /* box-sizing: border-box; */
+/* } */
+
+.child {
+  display: flex;
+  flex-direction: column;
+  min-width: 900px;
+  width: 100%;
+  height: 93%;
+  background-color: #f3f3f3;
+  margin-top: 0;
+  padding-bottom: 2%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.topBar {
+  min-width: 1000px;
+  width: 100%;
+  background-color: #f3f3f3;
+  display: flex;
+  margin: 0px auto;
+  padding: 8px 5px;
+  align-self: center;
+  margin-top: 0px;
+}
+
+.table {
+  border-spacing: 0px;
+}
+
+.td {
+  display: flex;
+  height: 42px;
+  min-width: 250px;
+  background-color: white;
+  border-bottom: 5px solid #f3f3f3;
+  align-items: center;
+  padding: 0px 50px;
+  justify-content: flex-start;
+  max-width: 250px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.tdSmall {
+  display: flex;
+  height: 42px;
+
+  background-color: white;
+  border-bottom: 5px solid #f3f3f3;
+  align-items: center;
+  /* padding: 0px 30px; */
+  justify-content: flex-start;
+  max-width: 200px;
+  min-width: 160px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.sticky {
+  display: flex;
+  background-color: white;
+  position: sticky;
+  height: 42px;
+  left: 0;
+  position: -webkit-sticky;
+  border-bottom: 5pt solid #f3f3f3;
+  min-width: 90px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border-right: solid 0.3px lightgray;
+}
+
+.td::-webkit-scrollbar {
+  display: none;
+}
+
+.button {
+  margin-top: 20%;
+  width: 10%;
+}
+
+.scrollData {
+  display: flex;
+  width: 100%;
+  border: solid;
+}
+
+.count {
+  position: absolute;
+  bottom: 0;
+  /* margin-top: 10px; */
+  min-width: 900px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #484b49;
+  padding: 0px 30px;
+}
+
+.countContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.selectContainer {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 2px;
+}
+
+.clearFilter {
+  display: flex;
+  border: dashed 1px white;
+  padding: 3px 7px;
+  margin: 0px;
+  cursor: pointer;
+  color: white;
+  background-color: #484b49;
+}
+
+.clearText {
+  margin: 0px;
+  cursor: pointer;
+  color: white;
+}
+
+.countHead {
+  margin: 0px;
+  font-size: 18px;
+  color: white;
+}
+
+.number {
+  margin: 0px;
+  font-size: 18px;
+  color: white;
+  margin-left: 10px;
+}
+
+.child::-webkit-scrollbar {
+  width: 10px;
+
+  height: 10px;
+}
+
+.child::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+/* Handle */
+.child::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.child::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.nextButton {
+  background-color: #279ea0;
+  color: white;
+  outline: none;
+  border: solid 0px;
+  padding: 3px 0px;
+  width: 70px;
+}
+
+.previousButton {
+  background-color: #4fce5d;
+  color: white;
+  outline: none;
+  border: solid 0px;
+  padding: 3px 0px;
+  width: 70px;
+}
+
+.branchButton {
+  display: flex;
+  /* margin-left: 25px; */
+  background-color: #279ea0;
+  color: white;
+  outline: none;
+  border: solid 0px;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
+
+.infiniteScroll::-webkit-scrollbar {
+  width: 10px;
+
+  height: 10px;
+}
+
+.infiniteScroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+/* Handle */
+.infiniteScroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.infiniteScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

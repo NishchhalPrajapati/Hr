@@ -1,0 +1,14 @@
+.parent {
+    width: 100vw;
+    min-width: 900px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+    flex-direction: column;
+  }
+  

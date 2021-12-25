@@ -1,0 +1,104 @@
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97vw;
+    min-height: 540px;
+    height: 91vh;
+  }
+  
+  .child {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 1%;
+    height: 100%;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #279f9f;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    margin: 0px;
+  }
+  
+  .one {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0px;
+  }
+  
+  .two {
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    margin: 0px;
+    margin-left: 2px;
+  }
+  
+  .box {
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-top: 0px;
+  }
+  
+  .box2 {
+    display: flex;
+  
+    flex-direction: row;
+    margin-top: 22px;
+    padding-left: 10px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .divide {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+  }
+  
+  .button {
+    background-color: #279f9f;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 100px;
+    border: solid 0px;
+    outline: none;
+    width: 50%;
+    align-self: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+  }
+  
+  .headerView {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .closeIcon {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .closeIcon:hover {
+    transform: scale(1.05);
+  }
+  

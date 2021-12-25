@@ -1,0 +1,35 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.readProLogo {
+  position: absolute;
+  left: 8px;
+  top: 5px;
+  width: 115px;
+  height: 35px;
+}
+
+.hrDashboardNavbar {
+  position: relative;
+  display: flex;
+}
+
+.hrNavbar {
+  position: relative;
+  left: 19.5%;
+  top: 1px;
+  /* height: 15px; */
+  width: 100%;
+  background-color: rgb(201, 152, 152);
+}
+
+.hrMainAndSideBar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 5000px;
+}

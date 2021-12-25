@@ -1,0 +1,28 @@
+.statistics {
+  position: relative;
+  top: 100px;
+}
+
+.statisticsBarBox {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.statisticsBar {
+  margin-left: 10px;
+}
+
+.todayStatistic {
+  margin-top: 50px;
+}
+.statisticTitleText {
+  font-family: Poppins;
+  position: relative;
+  left: 11px;
+  font-size: 11px;
+  white-space: nowrap;
+  text-align: left;
+  color: rgba(83, 83, 83, 1);
+}

@@ -1,0 +1,115 @@
+.timeSheet {
+  position: relative;
+  left: 0px;
+  top: 100px;
+}
+
+.timesheetDate {
+  left: 100px;
+  top: 8px;
+  position: absolute;
+  overflow: visible;
+  width: 15px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: rgba(69, 72, 75, 1);
+}
+
+.punchTextBox {
+  position: absolute;
+  left: 9px;
+  top: 50px;
+}
+
+.punchInAtTextBox {
+  position: absolute;
+  width: 215px;
+  height: 45px;
+  left: 20px;
+  top: 5px;
+  overflow: visible;
+}
+
+.punchInAt {
+  left: 1px;
+  top: 4px;
+  position: absolute;
+  overflow: visible;
+  width: 92px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  color: rgba(69, 72, 75, 1);
+}
+
+.punchInAtDate {
+  left: 0px;
+  top: 18px;
+  position: absolute;
+  overflow: visible;
+  width: 216px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: rgba(165, 165, 165, 1);
+}
+
+.punchOutBtn {
+  background-color: rgba(39, 158, 160, 1);
+  width: 95px;
+  height: 27px;
+  border: none;
+  border-radius: 5px;
+}
+
+.punchOutBtnBox {
+  position: absolute;
+  width: 155px;
+  height: 42px;
+  left: 80px;
+  top: 213px;
+  overflow: visible;
+}
+
+.punchOutBtnText {
+  left: 24px;
+  top: 11px;
+  position: absolute;
+  overflow: visible;
+  width: 84px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 9px;
+  color: rgba(255, 255, 255, 1);
+  text-transform: capitalize;
+}
+
+.breakAndOvertime {
+  position: relative;
+  top: 270px;
+}
+
+.break {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+.Overtime {
+  float: right;
+  text-align: center;
+  width: 50%;
+}

@@ -1,0 +1,58 @@
+.parent {
+    position: absolute;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+  
+    padding-bottom: 15px;
+    background-color: white;
+    z-index: 10;
+    top: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 3px 7px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .child {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 20px;
+  }
+  
+  .text {
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .line {
+    display: flex;
+    width: 90%;
+    border: solid 1px lightgrey;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .text:hover {
+    transform: scale(1.05);
+  }
+  
+  .showFilterAnim {
+    animation: showFilter 0.15s ease-out;
+  }
+  
+  @keyframes showFilter {
+    from {
+      height: 0px;
+      opacity: 0;
+    }
+    to {
+      height: 100px;
+      opacity: 1;
+    }
+  }
+  
